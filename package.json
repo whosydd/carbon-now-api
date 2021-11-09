@@ -1,0 +1,37 @@
+{
+  "name": "carbon-now-api",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whosydd/carbon-now-api.git"
+  },
+  "keywords": [
+    "carbon-now",
+    "carbon"
+  ],
+  "author": "GY <dev.youngkwok718@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whosydd/carbon-now-api/issues"
+  },
+  "homepage": "https://github.com/whosydd/carbon-now-api#readme",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.14",
+    "prettier": "^2.4.1",
+    "puppeteer": "^10.4.0"
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "koa": "^2.13.4",
+    "puppeteer-core": "^10.4.0"
+  }
+}
